@@ -25,17 +25,16 @@ console.log(p);
 console.log(o);
 console.log(k);
 console.log(j);
+
 let firstName='Ярина';
 let middleName='Марія';
 let lastName='Пасічна';
-let sen=`${firstName} ${middleName} ${lastName}`;
-console.log(sen);
+let sen=`${firstName} ${middleName}.${lastName}`
+
 let a1 = 100;
-let b1 = '100';
-let c1 = true;
+let b2 = '100';
+let c2 = true;
 console.log(typeof a1);
-console.log(typeof b1);
-console.log(typeof c1);
 
 
 
