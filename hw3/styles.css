@@ -1,0 +1,46 @@
+.n1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    margin: 10px;
+}
+.n2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    margin: 10px;
+}
+.n3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+    margin: 10px;
+    color: midnightblue;
+}
+.n4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    background-color: yellowgreen;
+    margin: 10px;
+    color: midnightblue;
+    padding: 5px;
+}
+.product-card{
+    width: 200px;
+}
+.product-image{
+    height: 150px;
+    width: 150px;
+}
