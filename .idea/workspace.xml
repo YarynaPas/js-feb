@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="678f3950-6441-4502-b0f6-1c9b50512cc5" name="Changes" comment="">
+    <list default="true" id="678f3950-6441-4502-b0f6-1c9b50512cc5" name="Changes" comment="hw2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/hw.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/hw.1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/hw1.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/hw1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2cjPyyBGr1eKboQkPnqvli4UQaH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,6 +36,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.hw2.html.executor": "Run",
+    "JavaScript Debug.hw3.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -58,11 +57,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708622277137</updated>
-      <workItem from="1708622278073" duration="10959000" />
+      <workItem from="1708622278073" duration="11262000" />
+      <workItem from="1708898505163" duration="17000" />
+      <workItem from="1708898541267" duration="197000" />
+      <workItem from="1708898760529" duration="1181000" />
+      <workItem from="1709124003100" duration="48000" />
+      <workItem from="1709124076449" duration="8498000" />
     </task>
+    <task id="LOCAL-00001" summary="hw2">
+      <option name="closed" value="true" />
+      <created>1708865537268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708865537268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw2" />
   </component>
 </project>
