@@ -157,7 +157,8 @@ function exchange(sumUAH, currencyValues, exchangeCurrency) {
             break;
         }
     }
-    let sumInCurrency = sumUAH / exchangeRate;
+    let sumInCurrency;
+    sumInCurrency = sumUAH / exchangeRate;
     return sumInCurrency;
 }
 let result = exchange(5000, [{ currency: 'USD', value: 40 }, { currency: 'EUR', value: 42 }], 'USD');

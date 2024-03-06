@@ -23,8 +23,8 @@ if (areaa > 0) {
 }
 //- створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
 const cylinderArea = (h, r) => 2 * Math.PI * r * h;
-const h = parseInt(prompt('Введіть висоту циліндра:'));
-const r = parseInt(prompt('Введіть радіус кола:'));
+let h = parseInt(prompt('Введіть висоту циліндра:'));
+let r = parseInt(prompt('Введіть радіус кола:'));
 const area3 = cylinderArea(h, r);
 
 if (area3 > 0) {
