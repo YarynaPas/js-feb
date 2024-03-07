@@ -130,14 +130,14 @@ let cards=[
     {cardSuit:'heart', value: 'king', color:'red'},
     {cardSuit:'heart', value: 'ace', color:'red'},
     //------------------------------------------------
-    {cardSuit:'heart', value: '6', color:'red'},
-    {cardSuit:'heart', value: '7', color:'red'},
-    {cardSuit:'heart', value: '8', color:'red'},
-    {cardSuit:'heart', value: '9', color:'red'},
-    {cardSuit:'heart', value: '10', color:'red'},
-    {cardSuit:'heart', value: 'jack', color:'red'},
-    {cardSuit:'heart', value: 'queen', color:'red'},
-    {cardSuit:'heart', value: 'king', color:'red'},
+    {cardSuit:'clubs', value: '6', color:'red'},
+    {cardSuit:'clubs', value: '7', color:'red'},
+    {cardSuit:'clubs', value: '8', color:'red'},
+    {cardSuit:'clubs', value: '9', color:'red'},
+    {cardSuit:'clubs', value: '10', color:'red'},
+    {cardSuit:'clubs', value: 'jack', color:'red'},
+    {cardSuit:'clubs', value: 'queen', color:'red'},
+    {cardSuit:'clubs', value: 'king', color:'red'},
     {cardSuit:'heart', value: 'ace', color:'red'},
 ]
 //{
