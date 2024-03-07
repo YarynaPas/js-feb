@@ -273,4 +273,4 @@ const modules = coursesArray.reduce((acc, course) => {
 }, { sass: [], docker: [] });
 
 console.log('Courses with Sass modules:', modules.sass);
-console.log('Courses with Docker modules:', modules.docker);
+console.log('Courses with Docker modules:', modules.docker);//
