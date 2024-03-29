@@ -69,7 +69,7 @@ for (const course of coursesAndDurationArray1) {
     p1.innerText = `Description : ${course.monthDuration} months`;
     div.appendChild(h1);
     div.appendChild(p1);
-    document.body.appendChild(div);
+    document.body.appendChild(div);//
 }
 
 // За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
@@ -346,11 +346,10 @@ for (const course of coursesArray) {
     let ratingD = document.createElement('div');
     ratingD.classList.add('rating');
     ratingD.innerText = `Rating: ${course.rating}`;
-    courseDiv.appendChild(titleDiv);
-    courseDiv.appendChild(durationDiv);
-    courseDiv.appendChild(modulesDiv);
-    courseDiv.appendChild(ratingDiv);
-    courseDiv.appendChild(avgResultDiv);
-    document.body.appendChild(courseDiv);
+    courseDiv.appendChild(titleD);
+    courseDiv.appendChild(durationD);
+    courseDiv.appendChild(modulesD);
+    courseDiv.appendChild(ratingD);
+    document.body.appendChild(courseD);
 }
 
