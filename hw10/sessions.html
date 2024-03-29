@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Sessions</h1>
+<div class="sessions">
+</div>
+<script>
+    let sessions = JSON.parse(localStorage.getItem('sessions'));
+    let sessionsContainer = document.querySelector('.sessions');
+    if (sessions && sessions.length > 0) {
+        sessions.forEach(session => {
+            let sessionDiv = document.createElement('div');
+            sessionDiv.textContent = session;
+            sessionsContainer.appendChild(sessionDiv);
+        });
+    }
+</script>
+</body>
+</html>

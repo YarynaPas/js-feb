@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Index Page</h1>
+<script>
+    let sessions = JSON.parse(localStorage.getItem('sessions') || '[]');
+    sessions.push(new Date().toLocaleString());
+    localStorage.setItem('sessions', JSON.stringify(sessions));
+</script>
+</body>
+</html>
